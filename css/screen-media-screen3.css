@@ -1,0 +1,218 @@
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 1167px) {
+.wrapper {
+width: 100%;
+left: 0%;
+margin-left: 0px;
+
+}
+
+}
+
+@media screen and (max-width:1040px) {
+
+  .inner {
+    
+    
+       font-size: 15px;
+       
+}
+
+ }
+ @media screen and (max-width:950px) {
+.inner {
+    
+    
+       font-size: 14px;
+       
+}
+.basic{
+
+       font-size: 30px;
+      
+   }
+ }
+ @media screen and (max-width:850px) {
+
+.inner {
+    
+    
+       font-size: 13px;
+       
+}
+}
+
+ @media screen and (max-width:800px) {
+
+.inner {
+    
+    
+       font-size: 12px;
+       
+}
+.basic{
+
+       font-size: 25px;
+      
+   }
+}
+
+   @media  all and (max-height: 770px)  {
+ .wrapper {
+top:0%;
+  margin-top: 0px;
+   height: 770px;
+      
+   
+
+    }
+    }
+
+    @media all and (max-width: 700px) {
+.wrapper {
+grid-template-areas:
+“header”
+“article”
+“nav”
+;
+grid-template-rows: 1fr 1fr   ;
+grid-template-columns: 1fr 1fr;
+height: 1206px;
+grid-row-gap: 3px;
+
+top: 50%;
+    margin-top: -603px;
+}
+
+.badge{
+    
+    right:0%;
+    
+  }
+  .inner {
+    
+    
+       font-size: 15px;
+       
+}
+.box {
+    
+ height: 600px;
+   
+}
+
+}
+
+ @media  (min-height: 0px) and (max-height: 1206px) and (min-width:450px) and (max-width:700px){
+ .wrapper {
+
+
+top: 0%;
+    margin-top: 0px;
+}
+} 
+
+
+ @media screen and (max-width:600px) {
+
+.inner {
+    
+    
+       font-size: 14px;
+       
+}
+
+}
+@media screen and (max-width:550px) {
+
+.inner {
+    
+    
+       font-size: 13px;
+       
+}
+
+}
+@media screen and (max-width:500px) {
+
+.inner {
+    
+    
+       font-size: 12px;
+       
+}
+
+}
+@media all and (max-width: 450px) {
+.wrapper {
+grid-template-areas:
+“header”
+“article”
+“nav”
+;
+grid-template-rows: 1fr 1fr  1fr ;
+grid-template-columns: 1fr;
+height: 1659px;
+grid-row-gap: 3px;
+top: 50%;
+    margin-top: -829.5px;
+}
+.inner {
+    
+    
+       font-size: 16px;
+       
+}
+
+
+.badge{
+    
+    top:553px;
+  }
+  .box {
+    
+ height: 550px;
+   
+}
+
+}
+ @media  (min-height: 0px) and (max-height: 1659px) and (min-width:320px) and (max-width:450px){
+ .wrapper {
+
+
+top: 0%;
+    margin-top: 0px;
+}
+}
+@media all and (max-width: 320px) {
+.wrapper {
+width: 320px;
+height: 1509px;
+margin-top: -754.5px;
+}
+.badge{
+    
+    top:503px;
+  }
+
+  .box {
+    
+ height: 500px;
+   
+}
+
+}
+ @media  (min-height: 0px) and (max-height: 1509px) and (min-width:0px) and (max-width:320px){
+ .wrapper {
+
+
+top: 0%;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+
